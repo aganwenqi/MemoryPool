@@ -1,0 +1,24 @@
+﻿  main.cpp
+d:\c++\rampool\rampool\allocatemanager.h(33): warning C4018: “<”: 有符号/无符号不匹配
+  d:\c++\rampool\rampool\allocatemanager.h(31): note: 编译 类 模板 成员函数 "void AllocateManager<Test,MemoryPool<Test,1024,4096>>::destroy(T *,size_t)" 时
+          with
+          [
+              T=Test
+          ]
+  d:\c++\rampool\rampool\main.cpp(77): note: 参见对正在编译的函数 模板 实例化“void AllocateManager<Test,MemoryPool<Test,1024,4096>>::destroy(T *,size_t)”的引用
+          with
+          [
+              T=Test
+          ]
+  d:\c++\rampool\rampool\main.cpp(60): note: 参见对正在编译的 类 模板 实例化 "AllocateManager<Test,MemoryPool<Test,1024,4096>>" 的引用
+d:\c++\rampool\rampool\memorypool.h(148): warning C4624: “MemoryPool<Test,1024,4096>::Slot_”: 已将析构函数隐式定义为“已删除”
+  d:\c++\rampool\rampool\memorypool.h(28): note: 参见对正在编译的 类 模板 实例化 "MemoryPool<Test,1024,4096>::Slot_" 的引用
+  d:\c++\rampool\rampool\memorypool.h(23): note: 编译 类 模板 成员函数 "MemoryPool<Test,1024,4096>::~MemoryPool(void)" 时
+  d:\c++\rampool\rampool\main.cpp(84): note: 参见对正在编译的函数 模板 实例化“MemoryPool<Test,1024,4096>::~MemoryPool(void)”的引用
+  d:\c++\rampool\rampool\allocatemanager.h(9): note: 参见对正在编译的 类 模板 实例化 "MemoryPool<Test,1024,4096>" 的引用
+  正在生成代码
+  6 of 62 functions ( 9.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  RamPool.vcxproj -> D:\C++\RamPool\Release\RamPool.exe
